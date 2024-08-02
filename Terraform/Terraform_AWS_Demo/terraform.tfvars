@@ -1,0 +1,9 @@
+aws_availability_zones = ["ap-northeast-1a", "ap-northeast-1c"]
+private_subnets = ["10.0.3.0/24", "10.0.4.0/24"]
+public_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
+aws_vpc_cidr = "10.0.0.0/16"
+aws_vpc_name = "test-vpc"
+environment = "test"
+ami_ubuntu = "ami-0a0b7b240264a48d7"
+aws_region = "ap-northeast-1"
+instance_type = "t3.micro"
