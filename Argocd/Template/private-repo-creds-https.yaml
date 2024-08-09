@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: private-repo-creds-https
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: repo-creds
+stringData:
+  type: git
+  url: https://github.com/Gnauk841026
+  password: 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
+  username: TestArgocd
